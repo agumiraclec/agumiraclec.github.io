@@ -191,3 +191,25 @@ footer {
   color: #38bdf8;
   background: transparent;
 }
+
+.container {
+  width: 90%;        /* scales on small screens */
+  max-width: 1200px; /* prevents it from stretching too wide */
+  margin: 0 auto;    /* centers container */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .nav-menu { display: block; }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .header { font-size: 20px; }
+  .section { padding: 10px; }
+}
